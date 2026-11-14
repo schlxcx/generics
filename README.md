@@ -2,9 +2,9 @@
 
 **A practical C# exercise for learning generics and type-safe collections.**
 
-![Language](https://img.shields.io/badge/language-C%23-512BD4)
-![Framework](https://img.shields.io/badge/framework-.NET-512BD4)
-![Type](https://img.shields.io/badge/type-Console%20Application-lightgrey)
+![Language](./readme-img/language.svg)
+![Framework](./readme-img/framework.svg)
+![Type](./readme-img/console.svg)
 
 ## Overview
 
@@ -28,13 +28,13 @@ The `Repository<T>` class uses a `List<T>` to store its items.
 
 ### Available Methods
 
-| Method | Description |
-|---|---|
-| `Repository()` | Creates an empty repository |
-| `Repository(List<T> values)` | Initializes the repository with an existing list |
-| `Add(T item)` | Adds an item to the repository |
-| `Remove(T item)` | Removes an item and returns whether removal succeeded |
-| `GetAll()` | Returns all stored items as `IEnumerable<T>` |
+| Method                       | Description                                           |
+| ---------------------------- | ----------------------------------------------------- |
+| `Repository()`               | Creates an empty repository                           |
+| `Repository(List<T> values)` | Initializes the repository with an existing list      |
+| `Add(T item)`                | Adds an item to the repository                        |
+| `Remove(T item)`             | Removes an item and returns whether removal succeeded |
+| `GetAll()`                   | Returns all stored items as `IEnumerable<T>`          |
 
 ### Example Usage
 
@@ -64,12 +64,12 @@ Generic constraints, such as `where T : SomeInterface`, are a related concept bu
 
 ## Technology Stack
 
-| Category | Technology |
-|---|---|
-| Language | C# |
-| Framework | .NET |
-| Main Concept | Generics |
-| Data Structure | List<escape><T></escape> |
+| Category            | Technology                                                |
+| ------------------- | --------------------------------------------------------- |
+| Language            | C#                                                        |
+| Framework           | .NET                                                      |
+| Main Concept        | Generics                                                  |
+| Data Structure      | List<escape><T></escape>                                  |
 | Additional Concepts | Collections, Type Safety, IEnumerable<escape><T></escape> |
 
 ## Getting Started
